@@ -1,25 +1,3 @@
-# Witaj Świecie! 👋
-
-Jestem Administratorem IT z Polski, specjalizującym się w zarządzaniu i utrzymaniu infrastruktury informatycznej. Aktualnie pracuję nad różnymi projektami związanymi z administracją systemu i zarządzaniem siecią.
-
-## Skontaktuj się ze mną
-
-[<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/mateusz-w-a6110910a/)
-[<img align="left" alt="E-mail" src="https://img.shields.io/badge/e-mail-%23000000.svg?&style=for-the-badge&logo=gmail&logoColor=white" />](mailto:mateusz.wlodarczak@wp.pl)
-
-<br>
-
-## Umiejętności
-
-<img align="left" alt="Administracja Systemu" src="https://img.shields.io/badge/Administracja%20Systemu-%230170FE.svg?&style=for-the-badge" />
-<img align="left" alt="Zarządzanie Siecią" src="https://img.shields.io/badge/Zarządzanie%20Siecią-%2343853D.svg?&style=for-the-badge" />
-<img align="left" alt="Infrastruktura IT" src="https://img.shields.io/badge/Infrastruktura%20IT-%23232F3E?style=for-the-badge" />
-
-
-<br>
-<br>
-
-
 # Witaj na moim profilu! 👋
 
 Jestem pasjonatem technologii i doświadczonym Administratorem IT z Polski. Zajmuję się kompleksowym zarządzaniem infrastrukturą informatyczną oraz dbam o bezpieczeństwo i efektywność systemów.
