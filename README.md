@@ -13,6 +13,8 @@ Zapraszam do nawiązania kontaktu, abyśmy mogli podzielić się doświadczeniem
 [<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/mateusz-w-a6110910a/)
 [<img align="left" alt="E-mail" src="https://img.shields.io/badge/e-mail-%23000000.svg?&style=for-the-badge&logo=gmail&logoColor=white" />](mailto:mateusz.wlodarczak@wp.pl)
 
+
+
 ## Umiejętności
 
 Moje główne obszary ekspertyzy to:
