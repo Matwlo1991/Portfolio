@@ -20,15 +20,15 @@ Zapraszam do nawiązania kontaktu, abyśmy mogli podzielić się doświadczeniem
 Moje główne obszary ekspertyzy to:
 
 <img align="left" alt="Administracja Systemu" src="https://img.shields.io/badge/Administracja%20Systemu-%230170FE.svg?&style=for-the-badge" />
-- **Administracja Systemem:** Skrupulatnie dbam o stabilność i wydajność systemów operacyjnych, zajmując się ich konfiguracją, monitorowaniem i rozwiązywaniem problemów.
+- Skrupulatnie dbam o stabilność i wydajność systemów operacyjnych, zajmując się ich konfiguracją, monitorowaniem i rozwiązywaniem problemów.
   
 
 <img align="left" alt="Zarządzanie Siecią" src="https://img.shields.io/badge/Zarządzanie%20Siecią-%2343853D.svg?&style=for-the-badge" />
-- **Zarządzanie Siecią:** Projektuję i utrzymuję sieci komputerowe, dbając o bezpieczeństwo, wydajność i dostępność usług.
+- Projektuję i utrzymuję sieci komputerowe, dbając o bezpieczeństwo, wydajność i dostępność usług.
   
 
 <img align="left" alt="Infrastruktura IT" src="https://img.shields.io/badge/Infrastruktura%20IT-%23232F3E?style=for-the-badge" />
-- **Infrastruktura IT:** Odpowiadam za kompleksowe zarządzanie infrastrukturą IT, w tym serwerami, bazami danych oraz innymi kluczowymi komponentami.
+- Odpowiadam za kompleksowe zarządzanie infrastrukturą IT, w tym serwerami, bazami danych oraz innymi kluczowymi komponentami.
   
 
 - **Bezpieczeństwo:** Wdrażam rozwiązania zabezpieczające, monitoruję ryzyka i reaguję na zagrożenia, aby chronić dane i systemy przed atakami.
