@@ -1,0 +1,55 @@
+function Get-IPAddressAndDescription {
+    param (
+        [string]$ComputerName
+    )
+
+    $result = Test-Connection -ComputerName $ComputerName -Count 1 -ErrorAction SilentlyContinue
+
+    if ($result) {
+        $ipAddress = $result.IPV4Address.IPAddressToString
+        $description = (Get-ADComputer -Identity $ComputerName -Properties Description).Description
+        return $ipAddress, $description
+    } else {
+        return $null, $null
+    }
+}
+
+# Ścieżka OU
+$TargetOU = "OU=your OU,DC=dc,DC=local"
+
+# Pobierz listę komputerów 
+$computers = Get-ADComputer -Filter * -SearchBase $TargetOU | Select-Object -ExpandProperty Name
+
+# Ścieżka do pliku CSV
+$csvFilePath = "C:\temp\Status_computer_in_office_.csv"
+
+# Jeśli plik CSV nie istnieje, utwórz nowy plik z nagłówkami
+if (-not (Test-Path $csvFilePath)) {
+    "Computer,IPAddress,Description" | Out-File -FilePath $csvFilePath -Encoding UTF8
+}
+
+# pobierz ich adresy IP i opisy, a następnie zapisz do pliku CSV
+foreach ($computer in $computers) {
+    $ipAddress, $description = Get-IPAddressAndDescription -ComputerName $computer
+
+    if ($ipAddress -and $description) {
+        # Sprawdź, czy komputer już istnieje w pliku CSV
+        $existingEntry = Import-Csv $csvFilePath | Where-Object { $_.Computer -eq $computer }
+
+        if ($existingEntry) {
+            # Aktualizuj istniejący wpis
+            $existingEntry.IPAddress = $ipAddress
+            $existingEntry.Description = $description
+        } else {
+            # Dodaj nowy wpis
+            $newEntry = [PSCustomObject]@{
+                Computer = $computer
+                IPAddress = $ipAddress
+                Description = $description
+            }
+            Add-Content -Path $csvFilePath -Value $newEntry
+        }
+
+        Write-Host ("Computer: {0} | IP Address: {1} | Description: {2}" -f $computer, $ipAddress, $description)
+    }
+}
